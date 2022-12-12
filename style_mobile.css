@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+.header{  
+    width: 100%;
+    min-height: 170vh;
+    background-image: linear-gradient(180deg, rgba(56, 181, 36, 0.502) 0.14%, rgba(255, 46, 113, 0.405) 46.77%, rgba(56, 181, 36, 0.5) 92.2%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.bor{
+    height: 150px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+.bor img{
+    display: absolute;
+    width: 100px;
+    top: 20px;
+}
+nav{
+    width: 100%;
+    height: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .Rep{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.title{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 230px;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.title h1{
+    font-size: 20px;
+}
+
+.button:target{
+    border: 1px solid #d4aa00ff;
+    background: #d4aa00ff;
+    transition: 1s;
+}
+.da{
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.da img{
+    width: 50px;
+    position: absolute;
+    bottom: 310px;
+}
+.visit{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 150px;
+    align-items: center;
+    text-align: center;
+}
+.visit h2{
+    font-size: 15px;
+}
+.visit p{
+    font-size: 10px;
+}
+.contact{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 30px;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+.contact h3{
+   font-size: 15px; 
+}
+.contact p{
+    font-size: 10px;
+}
+.linkcontact{
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    text-decoration: none;
+}
+.government{
+    width: 100%;
+    color: #ffffff;
+    position: absolute;
+    bottom: -60px;
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+}
+.government h3{
+   font-size: 15px;
+   text-align: center;
+}
+.linkgovern{
+    color: #fff;
+    font-size: 10px;
+    text-align: left;
+    text-decoration: none;
+    bottom: 5px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.government2{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+}
+.linkgovern2{
+    color: #fff;
+    font-size: 10px;
+    text-align: left;
+    text-decoration: none;
+    bottom: 5px;
+    padding-left: 230px;
+}
+.seal{
+    position: relative;
+    bottom: -140px;
+}
+.seal img{
+    width: 130px;
+    left: 0px;
+}
+.seal p{
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    left: 500px;
+}
+.log{
+    position: relative;
+    width: 40vh;
+    height: 45vh;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f0f0f0a1;
+    top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.login-form input{
+    width: 40vh;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+.login-form .button3{
+    bottom: 50px;
+}
+.log p{
+    width:100%;
+    position: flex;
+    bottom: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+.log .suh{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-form h2{
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+.message{
+    position: absolute;
+    top:50;
+    max-width: 1200px;
+    padding: 12px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    z-index: 1000;
+    background-color: #000000;
+    margin:0 60px;
+ }
+ 
+ .message span{
+    color: #000;
+    font-size: 12px;
+ }
+ 
+ .message i{
+    color:#000000;
+    font-size: 12;
+    cursor: pointer;
+ }
+ 
+ .message i:hover{
+    color: #000000;
+ }
+ .subheader1{  
+    width: 100%;
+    min-height: 170vh;  
+    background-image: linear-gradient(#38b52480 0.14%, rgba(255, 46, 113, 0.405) 46.77%, rgba(56, 181, 36, 0.5) 92.2%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    display: flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    position: absolute;
+    top: 150px;
+    left: 535px;
+    width: 250px;
+}
+.ngan{
+    display: flex;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+.ngan img{
+    position: absolute;
+    top: 40px;
+    left: 605px;
+    width: 100px;
+}
+.sign .title1{
+    width: 100%;
+    color: #d4aa00ff;
+    position: absolute;
+    top: 50px;
+    left: 210px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.title1 h1{
+    font-size: 42px;
+}
+.sign{
+    position:absolute;
+    width: 400px;
+    height: 520px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f0f0f0a1;
+    left: 450px;
+    top: 230px;
+    border-radius: 20px;
+}
+.sign h1{
+    color: #fff;
+    top: 250px;
+    left: 0px;
+    font-size: 22px;
+}
+.form-group input{
+    width: 350px;
+    padding: 10px;
+    margin: 15px 25px;
+    left: 50px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+.sign .button3{
+    bottom: 70px;
+    left: 210px;
+    margin: 12px 0;
+}
+.sign p{
+    width:200px;
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    font-size: 12px;
+}
+.sign .suh{
+    width: 100px;
+    font-weight: 600;
+    position: absolute;
+    text-decoration: none;
+    bottom: 30px;
+    left: 170px;
+    color: #000;
+    font-size: 12px;
+}
+.suh:hover{
+    color: #66b80f;
+    transition: 1s;
+}
+.sign h2{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.button3{
+    position: flex;
+    align-self: center;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 350px;
+}
+
+.button3:hover{
+    border: 1px solid #000;
+    background: #d4aa00ff;
+    transition: 1s;
+}

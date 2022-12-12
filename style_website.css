@@ -1,0 +1,1151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{  
+    width: 100%;
+    min-height: 100vh;  
+    background-image: linear-gradient(#38b52480 0.14%, rgba(255, 46, 113, 0.405) 46.77%, rgba(56, 181, 36, 0.5) 92.2%),url(images/Borongan-cityhall.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+position: absolute;
+width: 100%;
+height: 167px;
+left: 0px;
+top: 0px;
+}
+nav .bor{
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 100%;   
+    
+}
+nav .bor img{
+    max-width: 100%;
+    width: 96px;
+    height: 96px;
+    display: block;
+    padding-left: 10%;
+}
+nav .republic{
+position: absolute;
+width: 317px;
+height: 69px;
+left: 23%;
+top: 20%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.log{
+position: absolute;
+width: 25%;
+height: 370px;
+right: 10%;
+top: 15%;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 20px;
+}
+.log h2{
+    position: absolute;
+width: 100%;
+height: 30px;
+left: 0%;
+top: -20%;
+text-align: center;
+justify-content: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+.login-form{
+    position: relative;
+    top: 15%;
+}
+.login-form input{
+    width: 80%;
+    padding: 2%;
+    margin: 5% 10%;
+    align-items: stretch;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+.login-form .button3{
+   margin: 5% 10%;
+   bottom: -30%;
+   font-size: 15px;
+   padding: 1%;
+}
+.login-form .button2{
+    margin: 5% 10%;
+   bottom: -60%;
+   font-size: 15px;
+   padding: 2%;
+   font-size: 10px;
+}
+.log p{
+position: absolute;
+width: 100%;
+left: 0%;
+bottom: -80%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+
+color: #000;
+
+}
+.log .suh{
+position: absolute;
+width: 100%;
+left: -50%;
+text-align: center;
+transform: translate(50%,50%);
+bottom: -85%;
+text-decoration: none;
+color: #000;
+font-size: 12px;
+font-weight: 600;
+}
+.suh:hover{
+    color: rgb(102, 184, 15);
+    transition: 1ms;
+}
+.button3{
+    padding: 1%;
+    width: 80%;
+    position: absolute;
+    align-self: center;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #fff;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button3:hover{
+    border: 1px solid transparent;
+    color: #000;
+    background: #d4aa00ff;
+    transition: 1ms;
+}
+.button2{
+    width: 75%;
+    position: absolute;
+    align-self: center;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid #fff;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button2:hover{
+    border: 1px solid transparent;
+    color: #000;
+    background: #d4aa00ff;
+    transition: 1ms;
+}
+
+.title{
+position: absolute;
+width: 50%;
+height: 252px;
+left: 10%;
+top: 25%;
+}
+.title h1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 72px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.footerlinks{
+position: absolute;
+width: 100%;
+height: 153px;
+left: 0%;
+bottom: 0%;
+}
+.footerlinks .da{
+    position: absolute;
+    width: 15%;
+    height: 85px;
+    left: 5%;
+    bottom:  20px;    
+}
+.footerlinks .da img{
+    width: 80px;
+}
+.footerlinks .visit{
+position: absolute;
+width: 237px;
+height: 82px;
+left: 10%;
+bottom: 10px;
+}
+.footerlinks .visit h2{
+    position: absolute;
+    width: 58px;
+    height: 23px;
+    left: 20%;
+    bottom:70px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;    
+
+}
+.footerlinks .visit p{
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 25%;
+    bottom: 0px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    
+    color: #FFFFFF;
+}
+.footerlinks .contacts{
+position: absolute;
+width: 183px;
+height: 69px;
+left: 25%;
+bottom: 50px;
+}
+.footerlinks .contact h3{
+    position: absolute;
+    width: 99px;
+    height: 23px;
+    left: 40%;
+    bottom: 80px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+}
+.footerlinks .contact p{
+    position: absolute;
+    width: 151px;
+    height: 45px;
+    left: 42%;
+    bottom: 25px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    
+    color: #FFFFFF;
+    
+    
+
+}
+.footerlinks .governement{
+    position: absolute;
+    width: 288px;
+    height: 83px;
+    left: 30%;
+    bottom: 65px;   
+}
+.footerlinks .government h3{
+    position: absolute;
+    width: 147px;
+    height: 23px;
+    left: 60%;
+    bottom: 80px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+.footerlinks .government p{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 678px;
+    bottom: 0px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    
+    color: #FFFFFF;
+
+}
+.footerlinks .seal{
+    position: absolute;
+    right: 5%;
+    bottom: 40px;
+}
+.footerlinks .seal img{
+    width: 150px;
+}
+.footerlinks .sealdscrpt{
+    position: absolute;
+    width: 185px;
+    height: 36px;
+    left: -15px;
+    bottom: -20px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+}
+.subheader1{  
+    width: 100%;
+    min-height: 150vh;  
+    background-image: linear-gradient(#38b52480 0.14%, rgba(255, 46, 113, 0.405) 46.77%, rgba(56, 181, 36, 0.5) 92.2%),url(images/Borongan-cityhall.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.sign{
+    position: absolute;
+    width: 25%;
+    height: 590px;
+    right: 10%;
+    top: 15%;
+    
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    }
+    .sign h2{
+        position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 0%;
+    top: -10%;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    }
+    .signup-form{
+        position: relative;
+        top: 15%;
+    }
+    .signup-form input{
+        width: 80%;
+        padding: 2%;
+        margin: 5% 10%;
+        align-items: stretch;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        background: #f0f0f0;
+        border-radius: 5px;
+    }
+    .signup-form .button3{
+       margin: 5% 10%;
+       bottom: -10%;
+       font-size: 15px;
+       padding: 1%;
+    }
+    .signup-form .button2{
+        margin: 5% 10%;
+       bottom: -25%;
+       font-size: 15px;
+       padding: 2%;
+       font-size: 10px;
+       
+    }
+    .sign p{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: -30%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    
+    color: #000;
+    
+    }
+    .sign .suh{
+    position: absolute;
+    width: 100%;
+    left: -50%;
+    text-align: center;
+    transform: translate(50%,50%);
+    bottom: -35%;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    }
+    .sign .suh:hover{
+        color: rgb(102, 184, 15);
+        transition: 1ms;
+    }
+
+    .button3{
+        padding: 1%;
+        width: 80%;
+        position: absolute;
+        align-self: center;
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        border: 1px solid #fff;
+        background: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .title1{
+        position: absolute;
+        width: 50%;
+        height: 252px;
+        left: 10%;
+        top: 25%;
+        }
+        .title1 h1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 72px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        }
+    .subheader2{
+        width: 100%;
+        min-height: 190vh;  
+        background-color: #fff;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .sidenav{
+        position: absolute;
+        width: 20%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        background: linear-gradient(0deg, rgba(56, 181, 36, 0.92), rgba(56, 181, 36, 0.92)), #D9D9D9;
+    }
+    .sidenav .bor1{
+        width: 100%;
+        left: 0;
+        padding-top: 10%;
+        position: absolute;
+        justify-content: center;
+    }
+    .sidenav .bor1 img{
+        max-width: 100%;
+        width: 76px;
+        height: 76px;
+        display: flexbox;
+       padding-left: 35%;
+       padding-right: 35%;
+    }
+    .sidenav .republic{
+        position: absolute;
+        width: 100%;
+        height: 69px;
+       justify-content: center;
+        top: 10%;
+        font-weight: 100;
+        font-size: 8px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .sidenav .title2{
+        position: absolute;
+        width: 100%;
+        height: 252px;
+        margin-left: 3%;
+        margin-right: 3%;
+        top: 25%;
+    }
+    .sidenav .title2 h1{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .sidenav .navlinks{
+        text-align: center;
+        text-decoration: none;
+    }
+    .sidenav .navlinks ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 20px 12px;
+        position: relative;
+    }
+    .sidenav .navlinks ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .sidenav .da1{
+        width: 100%;
+        left: 0;
+        bottom: 2%;
+        position: absolute;
+        justify-content: center;
+       
+    }
+    .sidenav .da1 img{
+        width: 80px;
+        max-width: 100%;
+        display: flexbox;
+       padding-left: 35%;
+       padding-right: 35%;
+    }
+    .navlinks1{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 50%;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        align-self: center;
+        display: inline-block;
+        color: #f0f0f0;
+        border: transparent;
+        background: linear-gradient(0deg, rgba(255, 46, 113, 0.5), rgba(255, 46, 113, 0.5)), #D9D9D9;
+        cursor: pointer;
+    }
+    .navlinks2{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 40%;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        align-self: center;
+        display: inline-block;
+        color: #f0f0f0;
+        border: transparent;
+        background: transparent;
+        cursor: pointer;
+    }
+    .navlinks2:hover{
+        border: 1px solid #fff;
+        background: linear-gradient(0deg, rgba(255, 46, 113, 0.5), rgba(255, 46, 113, 0.5)), #D9D9D9;;
+        transition: 1ms;
+    }
+    .head{
+        position: absolute;
+        width: 80%;
+        height: 15%;
+        left: 0;
+        top: 0;
+        background-color: transparent;
+    }
+    .head .wel{
+        position: absolute;
+        width: 80%;
+        left: 30%;
+        top: 10%;
+        font-weight: 700;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+    .bor2{
+        position: absolute;
+        width: 100%;
+        height: 81px;
+        left: 25%;
+        top: 100%;
+        text-align: center;
+    }
+    .bor2 h1{
+        font-weight: 700;
+        font-size: 48px;
+    }
+    .chart1{
+        display: flex;
+        position:absolute;
+       width: 500px;
+       height: 400px;
+       left: 20%;
+       top: 20%;
+    }
+    .chart2{
+        display: flex;
+        position:absolute;
+        width: 450px;
+        height: 300px;
+        left: 60%;
+        top: 23%;
+     }
+     .chart3{
+        display: flex;
+        position:absolute;
+        width: 450px;
+        height: 300px;
+        left: 20%;
+        top: 50%;
+     }
+     .chart4{
+        display: flex;
+        position:absolute;
+        width: 450px;
+        height: 300px;
+        left: 60%;
+        top: 50%;
+     }
+    .footerlinks1{
+        position: absolute;
+        width: 100%;
+        height: 153px;
+        left: 0%;
+        bottom: 0%;
+        }
+        .footerlinks1 .visit{
+            position: absolute;
+            width: 237px;
+            height: 82px;
+            left: 17%;
+            bottom: 0%;
+            }
+            .footerlinks1 .visit h2{
+                position: absolute;
+                width: 58px;
+                height: 23px;
+                left: 20%;
+                bottom:70px;
+                
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 22px;
+                /* identical to box height */
+                
+                text-align: center;
+                
+                color: #000;    
+            
+            }
+            .footerlinks1 .visit p{
+                position: absolute;
+                width: 220px;
+                height: 60px;
+                left: 25%;
+                bottom: 0px;
+                
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 15px;
+                
+                color: #000;
+            }
+            .footerlinks1 .contacts{
+            position: absolute;
+            width: 183px;
+            height: 69px;
+            left: 25%;
+            bottom: 0%;
+            }
+            .footerlinks1 .contact h3{
+                position: absolute;
+                width: 99px;
+                height: 23px;
+                left: 40%;
+                bottom: 80px;
+                
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 22px;
+                /* identical to box height */
+                
+                text-align: center;
+                
+                color: #000;
+                
+                
+            }
+            .footerlinks1 .contact p{
+                position: absolute;
+                width: 151px;
+                height: 45px;
+                left: 42%;
+                bottom: 25px;
+                
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 15px;
+                
+                color: #000;
+                
+                
+            
+            }
+            .footerlinks1 .governement{
+                position: absolute;
+                width: 288px;
+                height: 83px;
+                left: 30%;
+                bottom: 65px;   
+            }
+            .footerlinks1 .government h3{
+                position: absolute;
+                width: 147px;
+                height: 23px;
+                left: 60%;
+                bottom: 80px;
+                
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 22px;
+                /* identical to box height */
+                
+                text-align: center;
+                
+                color: #000;
+                
+            }
+            .footerlinks1 .government p{
+                position: absolute;
+                width: 250px;
+                height: 60px;
+                left: 678px;
+                bottom: 0px;
+                
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 15px;
+                
+                color: #000;
+            
+            }
+            .footerlinks1 .seal{
+                position: absolute;
+                right: 5%;
+                bottom: 40px;
+            }
+            .footerlinks1 .seal img{
+                width: 150px;
+            }
+            .footerlinks1 .sealdscrpt{
+                position: absolute;
+                width: 185px;
+                height: 36px;
+                left: -15px;
+                bottom: -20px;
+                
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 18px;
+                text-align: center;
+                
+                color: #000;
+                
+            }
+@media only screen and (max-width : 480px) {
+    .header{
+        width: 100%;
+        height: 190vh;
+        background: linear-gradient(180deg, rgba(56, 181, 36, 0.69) 0%, rgba(255, 46, 113, 0.75) 51.04%, rgba(56, 181, 36, 0.69) 100%), #FFFFFF;
+        background-position: center;
+        background-size:contain;
+        position: relative;
+        overflow-x: hidden;
+    }
+    nav{
+       align-items: center;
+        width: 100%;
+        align-content: center;
+    }
+    nav .bor{
+        width: 100%;
+        left: 0;
+        justify-content: space-between;
+    }
+    nav .bor img{
+        max-width: 100%;
+        width: 76px;
+        height: 76px;
+        display: block;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    nav .republic{
+        position: absolute;
+        width: 100%;
+        height: 69px;
+        left: 0;
+        top: 55%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: smaller;
+        line-height: 22px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        }
+        .title{
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 15%;
+        }
+        .title h1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 72px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .log{
+            width: 80%;
+            align-items: center;
+            top: 35%;
+
+        }
+        .footerlinks{
+            position: absolute;
+            width: 100%;
+            height: 30%;
+            left: 0%;
+            bottom: 0%;
+        }
+        .footerlinks .da{
+            position: absolute;
+            width: 100%;
+            height: 85px;
+            bottom:  85%;
+            left: 0;
+           margin-left: 42%;
+           margin-right: 42%;
+            
+        }
+        .footerlinks .da img{
+            max-width: 100%;
+            width: 60px;
+            align-items: center;
+        }
+        .footerlinks .visit{
+            position: absolute;
+            align-items: center;
+            width: 100%;
+            height: 82px;
+            left: 0;
+            bottom: 70%;
+        }
+        .footerlinks .visit h2{
+            position: absolute;
+            width: 100%;
+            height: 23px;
+            bottom: 75%;
+            left: 0;
+        }
+        .footerlinks .visit p{
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            left: 0;
+            
+        }
+        .footerlinks .contact{
+            position: absolute;
+            align-items: center;
+            width: 100%;
+            height: 82px;
+            left: 0;
+            bottom: 50%;
+        }
+        .footerlinks .contact h3{
+            position: absolute;
+            width: 100%;
+            height: 23px;
+            bottom: 85%;
+            left: 0;
+        }
+        .footerlinks .contact p{
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            left: 0;
+            
+        }
+        .footerlinks .government{
+            position: absolute;
+            align-items: center;
+            width: 100%;
+            height: 82px;
+            left: 0;
+            bottom: 45%;
+        }
+        .footerlinks .government h3{
+            position: absolute;
+            width: 100%;
+            height: 23px;
+            bottom: 45%;
+            left: 0;
+        }
+        .footerlinks .seal{
+            position: absolute;
+            width: 100%;
+            height: 85px;
+            bottom:  15%;
+            left: 0;
+            right: 0;
+           margin-left: 31%;
+           margin-right: 31%;
+        }
+        .footerlinks .seal img{
+            align-items: center;
+            width: 150px;
+        }
+        .subheader1{
+            width: 100%;
+            height: 260vh;
+            background: linear-gradient(180deg, rgba(56, 181, 36, 0.69) 0%, rgba(255, 46, 113, 0.75) 51.04%, rgba(56, 181, 36, 0.69) 100%), #FFFFFF;
+            background-position: center;
+            background-size:contain;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+            .title1{
+                position: absolute;
+                width: 100%;
+                left: 0;
+                top: 15%;
+            }
+            .title1 h1{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 72px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            .sign{
+                width: 80%;
+                align-items: center;
+                top: 35%;
+    
+            }
+            .footerlinks{
+                position: absolute;
+                width: 100%;
+                height: 30%;
+                left: 0%;
+                bottom: 0%;
+            }
+            .footerlinks .da{
+                position: absolute;
+                width: 100%;
+                height: 85px;
+                bottom:  85%;
+                left: 0;
+               margin-left: 42%;
+               margin-right: 42%;
+                
+            }
+            .footerlinks .da img{
+                max-width: 100%;
+                width: 60px;
+                align-items: center;
+            }
+            .footerlinks .visit{
+                position: absolute;
+                align-items: center;
+                width: 100%;
+                height: 82px;
+                left: 0;
+                bottom: 65%;
+            }
+            .footerlinks .visit h2{
+                position: absolute;
+                width: 100%;
+                height: 23px;
+                bottom: 75%;
+                left: 0;
+            }
+            .footerlinks .visit p{
+                position: absolute;
+                text-align: center;
+                width: 100%;
+                left: 0;
+                
+            }
+            .footerlinks .contact{
+                position: absolute;
+                align-items: center;
+                width: 100%;
+                height: 82px;
+                left: 0;
+                bottom: 35%;
+            }
+            .footerlinks .contact h3{
+                position: absolute;
+                width: 100%;
+                height: 23px;
+                bottom: 85%;
+                left: 0;
+            }
+            .footerlinks .contact p{
+                position: absolute;
+                text-align: center;
+                width: 100%;
+                left: 0;
+                
+            }
+            .footerlinks .government{
+                position: absolute;
+                align-items: center;
+                width: 100%;
+                height: 82px;
+                left: 0;
+                bottom: 30%;
+            }
+            .footerlinks .government h3{
+                position: absolute;
+                width: 100%;
+                height: 23px;
+                bottom: 45%;
+                left: 0;
+            }
+            .footerlinks .seal{
+                position: absolute;
+                width: 100%;
+                height: 85px;
+                bottom:  0%;
+                left: 0;
+                right: 0;
+               margin-left: 31%;
+               margin-right: 31%;
+            }
+            .footerlinks .seal img{
+                align-items: center;
+                width: 150px;
+            }
+    
+}
